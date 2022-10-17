@@ -1,8 +1,8 @@
-let a = -5 * -1;
-let b = 3;
-let plotas = staciakampioPlotas;
+let krastine1 = Math.abs(+prompt("Įveskite pirmą skaičių"));
+let krastine2 = Math.abs(+prompt("Įveskite antrą skaičių"));
+let plotas = krastine1 * krastine2;
 console.log("staciakampioPlotas yra" + plotas);
 
-function staciakampioPlotas(a, b) {
-    return a * b;
+function staciakampioPlotas(krastine1, krastine2) {
+    return plotas;
 }
